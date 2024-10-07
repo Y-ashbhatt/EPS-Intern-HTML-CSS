@@ -520,6 +520,12 @@ footer {
   transform: translateY(-0.25rem) scale(1.5);
 }
 
+.btn:hover, .learn:hover, .register:hover {
+  background-color: #0073e6;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
 
 /* Media Breakpoints  */
 
@@ -744,7 +750,7 @@ footer {
   }
 
   footer{
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
   }
   .footer__details{
     display: flex;
@@ -762,3 +768,4 @@ footer {
   }
 
 }
+
